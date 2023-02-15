@@ -1,0 +1,26 @@
+name: pakiza_dyeing_inventory
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: ">=2.18.5 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  google_fonts: ^4.0.3
+  slide_digital_clock: ^1.0.3
+  get: 4.6.5
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
